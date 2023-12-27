@@ -1,0 +1,40 @@
+Principais ponto estudados
+Para criar um repositório no GitHub:
+
+Acesse o GitHub e faça login na sua conta.
+Clique no sinal "+" no canto superior direito e selecione "New repository".
+Escolha um nome para o repositório, adicione uma descrição, selecione a visibilidade e clique em "Create repository".
+Configurar o Git localmente:
+
+Instale o Git no seu computador, se ainda não estiver instalado.
+Abra o terminal ou prompt de comando e configure o Git com seu nome de usuário e e-mail:
+arduino
+Copy code
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@example.com"
+Clonar o repositório:
+
+No terminal, navegue até o diretório onde deseja clonar o repositório.
+Use o comando git clone seguido do URL do repositório que você criou no GitHub:
+bash
+Copy code
+git clone URL_DO_REPOSITORIO
+Adicionar arquivos ao repositório:
+
+Crie ou adicione arquivos ao diretório clonado.
+Use git add para adicionar os arquivos ao controle de versão do Git:
+csharp
+Copy code
+git add nome_do_arquivo
+Commit das mudanças:
+
+Realize o commit das alterações:
+sql
+Copy code
+git commit -m "Mensagem explicativa sobre as alterações realizadas"
+Enviar alterações para o GitHub:
+
+Use git push para enviar as alterações para o repositório remoto no GitHub:
+perl
+Copy code
+git push origin nome_do_branch
